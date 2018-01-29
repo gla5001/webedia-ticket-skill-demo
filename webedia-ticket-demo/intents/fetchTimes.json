@@ -12,7 +12,7 @@
         {
           "id": "4b616c2d-6986-4266-9512-7d31896657f1",
           "required": false,
-          "dataType": "@movies",
+          "dataType": "@sys.any",
           "name": "movie",
           "value": "$movie",
           "isList": false

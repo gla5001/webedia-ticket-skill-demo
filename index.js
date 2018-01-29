@@ -127,6 +127,7 @@ const fetchMovies = (app) => {
 
 const fetchTimes = (app) => {
   const movie = app.getArgument(PARAMS.MOVIE);
+  console.log('MOVIE: ' + movie);
   const times = fetchMovieTimes(movie);
   app.ask(`The movie is playing at ${times}. Which time should I book?`);
 };
