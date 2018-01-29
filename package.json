@@ -1,0 +1,15 @@
+{
+  "name": "webedia-ticket-skill-demo",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "serverless.com",
+  "license": "MIT",
+  "dependencies": {
+    "actions-on-google": "^1.8.0",
+    "serverless-google-cloudfunctions": "^1.1.0"
+  }
+}

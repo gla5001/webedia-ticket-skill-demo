@@ -1,0 +1,33 @@
+[
+  {
+    "id": "51265e5d-7099-4efc-90ee-ad05d509071c",
+    "data": [
+      {
+        "text": "The Commuter",
+        "alias": "movie",
+        "meta": "@movies",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "59050dac-8730-4199-92d3-ac0d5f97f6dd",
+    "data": [
+      {
+        "text": "I would like to see ",
+        "userDefined": false
+      },
+      {
+        "text": "The Communter",
+        "alias": "movie",
+        "meta": "@movies",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1517256704
+  }
+]

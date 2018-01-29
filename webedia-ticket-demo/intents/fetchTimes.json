@@ -1,0 +1,38 @@
+{
+  "id": "8cfdc2d4-0519-4bcb-b01d-faf8a3c33d1b",
+  "name": "fetchTimes",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "fetchTimes",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "4b616c2d-6986-4266-9512-7d31896657f1",
+          "required": false,
+          "dataType": "@movies",
+          "name": "movie",
+          "value": "$movie",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1517256704,
+  "fallbackIntent": false,
+  "events": []
+}

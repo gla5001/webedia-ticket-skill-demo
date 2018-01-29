@@ -1,0 +1,29 @@
+[
+  {
+    "id": "f015a7ba-0512-4308-8f38-c99e806d570d",
+    "data": [
+      {
+        "text": "I would like to go to ",
+        "userDefined": false
+      },
+      {
+        "text": "B\u0026B",
+        "alias": "movieTheaterCircuit",
+        "meta": "@movieTheaterCircuit",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Mesa Gateway 12 IMAX",
+        "alias": "movieCircuitLocations",
+        "meta": "@movieCircuitLocations",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

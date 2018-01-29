@@ -1,0 +1,58 @@
+{
+  "id": "86f20150-78f4-47c9-8c39-0997bc34fa97",
+  "name": "fetchMovies",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "fetchMovies",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "36c220e4-4dc3-4afe-9e4f-7614056a8eda",
+          "required": true,
+          "dataType": "@movieTheaterCircuit",
+          "name": "movieTheaterCircuit",
+          "value": "$movieTheaterCircuit",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please Specify Theater Circuit"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "df20432c-88d8-4b47-9447-5bb90f2b514f",
+          "required": true,
+          "dataType": "@movieCircuitLocations",
+          "name": "movieCircuitLocations",
+          "value": "$movieCircuitLocations",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please specify location"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1517072431,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,37 @@
+{
+  "id": "bc5b5c82-da5b-4f28-b554-535ccf99e70d",
+  "name": "bookMovie",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "bookMovie",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "02b55590-e717-4a3a-a790-37c83fcb616b",
+          "dataType": "@sys.time",
+          "name": "time",
+          "value": "$time",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1517256909,
+  "fallbackIntent": false,
+  "events": []
+}
